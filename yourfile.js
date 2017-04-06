@@ -74,7 +74,7 @@ Goal: get the least amount of bills possible after asking for 50 dollars from ma
 
 */
 
-/*
+
 let amount = 50;
 let bill = [20, 10, 5, 1];
 let change = [];
@@ -107,11 +107,11 @@ if ((amount/bill[3]) >= 1) {
     change[3] = 0;
 }
 
-console.log('I will get ' + change); */
+console.log('I will get ' + change);
 
 /*for (let i = 0; i < bill.length; i = i + 1) {
 
-}*/
+}
 
 /* Finding Palindromes
 
@@ -126,11 +126,14 @@ if the first letter and the last letter of the word, then it might be a palindro
 */
 
 let word = 'madam';
-let palindrome = word.split; 
+Palidrome = false;
 
-console.log('this word is a ' + word)
-
-/*for (let i = 0; i < word.length; i = i + 1) {
-    if (word.split[0] ===  )
-}
-*/
+for (let i = 0; i < word.length; i = i + 1) {
+    if (i[0] === -1);
+    Palidrome = true;
+} 
+    if (Palidrome) {
+        console.log(word + ' is a palidrome');
+    } else {
+        console.log(word + ' is not a palidrome')
+    }
