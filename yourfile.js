@@ -10,7 +10,7 @@ Create a variable called word that contains a hangman word,
   output: guessed letter
 
   */
-
+/*
   let word = 'creature';
   let letter = 'r';
   let occurance = 0;
@@ -50,7 +50,7 @@ Goal: how many more Hares are there after 3 weeks?
     - (100x.01) = 3/week , 100 + 3 = 103 after 3 weeks
 
 */
-
+/*
 let startingPopulation = 100;
 let birthRate = .01;
 let numberOfWeeks = 3; 
@@ -74,20 +74,21 @@ Goal: get the least amount of bills possible after asking for 50 dollars from ma
 
 */
 
+/*
 let amount = 50;
 let bill = [20, 10, 5, 1];
 let change = [];
 
 if ((amount/bill[0]) >= 1) { //if the ammount (50) is divided by 20 and that is greater than or equal to 1...then
-    change[0] = Math.floor(amount/bill[0]); // first box in the change array will be equal to amount divided by bill
-    amount = amount - (change[0] * bill[0]); // this will change the amount to amount (50) - (change (2) * 20) = 40 (the new amount #)
+    change[0] = Math.floor(amount/bill[0]); // first box in the change array will be equal to amount divided by bill which will be 2 - (this means first number in the change array will be 2)
+    amount = amount - (change[0] * bill[0]); // this will change the amount to amount (50) - (change (2) * 20) = 10 (the new amount #)
 } else {
-    change[0] = 0;
+    change[0] = 0; //if the amount divided by the bill is less than 1, the number first number in the change array will bring up 0
 }
 
-if ((amount/bill[1]) >= 1) {
-    change[1] = Math.floor(amount/bill[1]);
-    amount = amount - (change[1] * bill[1]);
+if ((amount/bill[1]) >= 1) { //if 10/10 is greater or equal to 1...then
+    change[1] = Math.floor(amount/bill[1]); //change amount in the second number of the array will equal 10 divided by 10 which is 1, this means...
+    amount = amount - (change[1] * bill[1]);// the new amount (10) equals 10 - (1 * 10) = 0 which means we dont need anymore change after this
 } else {
     change[1] = 0;
 }
@@ -106,9 +107,30 @@ if ((amount/bill[3]) >= 1) {
     change[3] = 0;
 }
 
-console.log('I will get ' + change); 
+console.log('I will get ' + change); */
 
 /*for (let i = 0; i < bill.length; i = i + 1) {
 
 }*/
 
+/* Finding Palindromes
+
+Create a variable called word that stores a word we want to test as a palindrome. 
+Write some code that prints out "true" if word is a palindrome, or "false" if its not.
+
+input: word that we test as palindrome
+output: true/false statement for a palindrome test
+
+if the first letter and the last letter of the word, then it might be a palindrome
+
+*/
+
+let word = 'madam';
+let palindrome = word.split; 
+
+console.log('this word is a ' + word)
+
+/*for (let i = 0; i < word.length; i = i + 1) {
+    if (word.split[0] ===  )
+}
+*/
